@@ -1,0 +1,148 @@
+#topnav{
+    display:flex;
+    background-color:green;
+    height:60px;
+}
+.search{
+  padding-left:260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input{
+height:30px;
+width:326px;
+padding-left:20px;
+border-radius: 15px;
+border:none;
+font-family: Trebuchet MS;
+font-weight:bold;
+}
+.search button{
+  margin-top:3px;
+  margin-left:5px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+/* .inst{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: brown;
+} */
+.inst button{
+  display: flex;
+  margin-top:15px;
+  height: fit-content;
+  margin-left:45px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+.inst button img{
+  height:25px;
+}
+.inst button:hover{
+  cursor: pointer;
+}
+.phone button{
+  display: flex;
+  margin-top:15px;
+  height: fit-content;
+  margin-left:5px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+.phone button img{
+  height:25px;
+}
+.email button{
+  display: flex;
+  margin-top:15px;
+  height: fit-content;
+  margin-left:5px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+.email button img{
+  height:25px;
+}
+.search img:hover{
+  cursor: pointer;
+}
+.home{
+    display: flex;
+    align-items: center;
+    padding-left:190px;
+    /* padding-right:50px; */
+}
+/* .about{
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+    font-size: 5px;
+    padding-left:20px;
+    /* padding-right:50px; */
+
+.orders{
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+    font-size: 5px;
+    padding-left:50px;
+    /* padding-right:50px; */
+}
+.home_1{
+  display: flex;
+  align-items: center;
+  padding-left:840px;
+  /* padding-right:50px; */
+}
+/* .about_1{
+  display: flex;
+  align-items: center;
+  padding-left:30px;
+  padding-right:50px;
+} */
+.orders_1{
+  display: flex;
+  align-items: center;
+  padding-left:50px;
+  /* padding-right:50px; */
+}
+a {
+font-size: large;
+}
+a:link {
+    color:white;
+    font-family: 'Trebuchet MS';
+  font-size: 18px;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: bisque;
+  }
+  
+  a:active {
+    color:white;
+  }
+  a, u {
+    text-decoration: none;
+  }
+
+.left{
+    display: flex;
+    align-items: center;
+    padding-left:25px
+}
+.left b{
+    color: white;
+    font-size: xx-large;
+}

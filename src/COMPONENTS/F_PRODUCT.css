@@ -1,0 +1,84 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+/* hr.line {
+    border-top: 9px solid red;
+  } */
+.fp_name{
+    margin-left:20px;
+}
+.fp_price span {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+.cart_body {
+    display: flex;
+    margin-left: 40px;
+    flex-direction:column;
+    width: 950px;
+    /* height: 500px; */
+    padding: 0px 50px 20px 50px;
+    padding-left:60px;
+    box-sizing: border-box;
+    font-size: 20px;
+    /* border:1px solid black; */
+    border-radius: 15px;
+    font-family: Trebuchet MS;
+    background-color:rgb(255, 238, 238,5);
+    overflow: auto;
+  }
+ .fproduct{
+     margin-top: 15px;
+     display:flex;
+     width: 750px;
+     /* box-shadow: 0px 1px 0px; */
+     flex-direction: row;
+     font-family: Trebuchet MS;
+     padding-left:20px;
+     margin-left:30px;
+     border-radius: 15px;
+     background-color: rgb(255, 255, 255,0.9);
+     font-size: 14px;
+ }
+ .fp_price{
+     margin-top:30px;
+     margin-left:165px;
+     font-size: 13px;
+     display: inline-block;
+     vertical-align: top;
+ }
+ .fp_buttons{
+     margin-left:10px;
+     display: flex;
+     justify-content: center;
+      align-items: center;
+ } 
+ .fp_buttons button{
+  margin:5px; 
+  margin-top:5x;   
+  color:rgb(32, 29, 29);
+  font-family: Trebuchet MS;
+      width: 80px;
+     height: 25px;
+     font-size: 14px;
+     border-radius: 35px;
+     border: none;
+     font-weight: bold;
+     position: relative;
+     transition: background-color .3s ease;
+     overflow: hidden; 
+} 
+.fp_buttons .btnn:hover{
+    background-color: rgb(230, 214, 214);
+    cursor: pointer;
+}
+.f_img img {
+    width: 75px;
+    border-radius: 10px;
+    height:75px;
+    /* border: 1px solid black; */
+  }
+  .f_img{
+  margin-top: 20px;}

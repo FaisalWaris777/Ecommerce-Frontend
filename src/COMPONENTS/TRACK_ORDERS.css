@@ -1,0 +1,90 @@
+.t2{
+    width:400px;
+}
+.detail{
+    font-family: Trebuchet MS;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 60px;
+    color: grey;
+    font-weight: bold;
+}
+.t3{
+    /* background-color: rgb(238, 213, 213,3); */
+    background-color:rgb(255, 238, 238,5);
+    width:850px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 30px;
+}
+.detail .orderid{
+    font-family: Trebuchet MS;
+    font-size: 22px;
+}
+.delivery{
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.t1{
+   margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+}
+.t1 .p{
+    margin-left:80px;
+    text-decoration:underline;
+}
+.t1 .q{
+    margin-left:450px;
+    text-decoration:underline;
+}
+.t2{
+    display: flex;
+    flex-direction: row;
+}
+.track{
+    padding-left:80px;
+}
+.t_name{
+    font-family: Trebuchet MS;
+     font-size: 16px;
+     font-weight: 600;
+    margin-left:20px;
+    padding-top:20px;
+}
+ .tproduct{
+     display:flex;
+     width:650px;
+     flex-direction: row;
+     margin-top: 15px;
+     font-family: Trebuchet MS;
+     padding-left:20px;
+     /* margin-left:5px; */
+     border-radius: 15px;
+     background-color: rgb(255, 255, 255,0.9);
+ }
+ .track{
+     margin-top: 20px;
+ }
+ .t_price{
+     margin-top:30px;
+     margin-left:150px;
+     font-family: Trebuchet MS;
+     font-size: 18px;
+     display: inline-block;
+     vertical-align: top;
+ } 
+.t_img img {
+    width: 50px;
+    height:50px;
+    border: 1px solid black;
+  }
+  .t_img{
+  margin-top: 15px;}

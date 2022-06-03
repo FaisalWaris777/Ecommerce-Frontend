@@ -1,0 +1,38 @@
+.payment{
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-left:50px;
+    /* padding-top: 30px; */
+    width:1000px;
+    border-radius: 8px;
+    background-color: white;
+}
+.payment .tt{
+    padding-left: 40px;
+}
+.payment h2{
+    font-family: Trebuchet MS;
+    font-size: 20px;
+}
+.payment div{
+    margin-top: 40px;
+}
+.payment .placed{
+    color: rgb(122, 117, 117);
+}
+.payment .placed h2{
+    font-size: 28px;
+}
+.payment .placed img{
+    filter: grayscale(100%);
+}
+.payment h3{
+    font-family: Helvetica; 
+    font-size: 18px; 
+}
+.a h3{
+color: rgb(122, 117, 117);
+}
+.a h3:hover{
+    color: green;
+}

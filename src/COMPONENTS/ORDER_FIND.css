@@ -1,0 +1,64 @@
+.ofdiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.find_order h2{
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: bold;
+}
+.find_order {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 50px 50px 50px;
+    width:fit-content;
+    margin-top: 85px;
+    border-radius: 15px;
+    background-color:rgb(255, 238, 238,5);;
+}
+.find_order .otp{
+    margin-top: 20px;
+}
+.find_order .phone_num{
+    margin-top: 10px;
+}
+.find_order div button{
+    margin-left: 30px;
+    height:30px;
+    width:150px;
+}
+.find_order div input{
+    padding-left:20px;
+    border-radius: 12px;
+    border:none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    height:30px;
+    width:250px;
+}
+.find_order button{
+    margin-top:20px;
+    margin-left:240px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+      width: 180px;
+     height: 30px;
+     font-size: 14px;
+     border-radius: 15px;
+     cursor: pointer;
+     position: relative;
+     border: none;
+     color: white;
+     font-weight: bold;
+     background-color: rgb(8, 184, 8);
+     transition: background-color .4s ease;
+     overflow: hidden; 
+}
+.find_order button:hover{
+    background-color: rgb(74, 212, 74);
+    cursor: pointer;
+}

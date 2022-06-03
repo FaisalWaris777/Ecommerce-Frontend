@@ -1,0 +1,58 @@
+#ffooter {
+   display: flex;
+   width: 220px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left:70px;
+    margin-top:90px;
+    padding-bottom: 15px;
+    background-color:rgb(255, 238, 238,5);
+    border-radius: 15px;
+    /* border:1px solid black;  */
+  }
+  input{
+    background-color: none;
+    outline: none;
+  }
+  button{
+    outline: none;
+  }
+  .total span {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #ffooter .btn2:hover {
+    background-color: rgb(17, 184, 17);
+    /* transform: scale(1.05); */
+    cursor: pointer;
+  }
+   #ffooter .btn2{
+    background-color:green;
+  color:white;
+  font-family: 'Trebuchet MS';
+  width: 170px;
+  cursor: pointer;
+  font-weight:bolder;
+  height: 40px;
+  display: flex;
+  border-radius: 25px;
+  border: none;
+  margin-top:40px;
+  margin-bottom:10px;
+   justify-content: center;
+   transition: all .3s ease-in-out;
+   align-items: center;
+ }
+   #ffooter .total{
+    font-size: large;
+    /* background-color:rgba(0, 0, 0, 0.849); */
+    color:black;
+    margin-top:40px;
+    font-family: 'Trebuchet MS';
+    height: 40px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+   }
